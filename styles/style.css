@@ -7,16 +7,7 @@
     color: #dcddde;
     font-family: exo2;
 }
-@media screen and (min-width:1025px)
-    {
-        *
-        {
-            background-image: url(../Images/desctop_bg.jpg);
-            background-attachment: fixed;
-            background-size: 100% 100%;
-        }
-    }
-    @media screen and (min-width:480px)
+@media screen and (min-width:480px)
     {
         *
         {
@@ -25,3 +16,14 @@
             background-size: 100% 100%;
         }
     }
+@media screen and (min-width:1025px)
+    {
+        *
+        {
+            background-image: url(../Images/desctop_bg.jpg);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+        }
+    }
+    

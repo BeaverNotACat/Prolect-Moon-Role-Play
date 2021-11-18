@@ -39,6 +39,12 @@ body
     border-radius: 15px;
     word-break: break-all;
 }
+.header-grid
+{
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+}
 
 @font-face 
 {
@@ -46,4 +52,4 @@ body
     src: url("../fonts/Exo2-VariableFont_wght.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
-} 
+}

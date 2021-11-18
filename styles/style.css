@@ -7,7 +7,7 @@
     color: #dcddde;
     font-family: exo2;
 }
-@media screen and (min-width: 1080px)
+@media screen and (min-width:1025px)
     {
         *
         {
@@ -16,7 +16,7 @@
             background-size: 100% 100%;
         }
     }
-    @media screen and (max-width: 1079px)
+    @media screen and (min-width:480px)
     {
         *
         {

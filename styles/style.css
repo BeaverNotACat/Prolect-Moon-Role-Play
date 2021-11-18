@@ -38,13 +38,19 @@ body
     background-color: #000000dc;
     border-radius: 15px;
     word-break: break-all;
+
+    display: flex;
+    flex-direction: column
 }
-.header-grid
+header
 {
-    display: grid;
-    grid-template-columns: repeat(5, 2fr);
-    grid-template-rows: repeat(3, 2fr);
+    display: flex;
 }
+nav li
+{
+    display: inline-block;
+}
+
 
 @font-face 
 {

@@ -40,13 +40,13 @@ body
     display: flex;
     flex-direction: column
 }
-@media screen and (min-width:1025px)
-{
-    header
+header
     {
         display: flex;
-        
     }
+@media screen and (min-width:1025px)
+{
+    
 }
 
 .logo img

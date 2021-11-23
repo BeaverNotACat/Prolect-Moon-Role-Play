@@ -42,7 +42,7 @@ body
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(4);
+    grid-template-columns: 100px 1fr 1fr;
     grid-template-rows: repeat(3);
  }
 @media screen and (min-width:1025px)
@@ -96,10 +96,8 @@ body
 }
 .logo img
 {
-    max-width: auto;
-    height: 85px;
-    margin-right: 5px;
-    float: right;
+    max-width: 100px;
+    height: auto;
 }
 nav
 {

@@ -40,21 +40,65 @@ body
     display: flex;
     flex-direction: column
 }
-header
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4);
+    grid-template-rows: repeat(3);
+ }
+@media screen and (min-width:1025px)
+{
+    .logo
     {
-        display: flex;
-
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
     }
+    .title
+    {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    nav
+    {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+}
 @media screen and (max-width:1025px)
 {
-    align-items: flex-start;
+    .logo
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .title
+    {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    nav
+    {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
 }
-
 .logo img
 {
-    max-width: 100px;
-    height: auto;
+    max-width: auto;
+    height: 85px;
     margin-right: 5px;
+    float: right;
 }
 nav
 {

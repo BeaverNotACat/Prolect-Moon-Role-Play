@@ -124,4 +124,10 @@ a:hover
     color: #800000;
     text-decoration: underline;
 }
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@font-face 
+{
+    font-family: "exo2"; 
+    src: url("../fonts/Exo2-VariableFont_wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
